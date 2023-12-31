@@ -1,7 +1,8 @@
 *{
-   padding: 0;
-   margin: 0;
+    padding: 0;
+    margin: 0;
 }
+/* navbar code  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -35,36 +36,6 @@ nav ul li a{
 nav ul li a:hover{
     background-color: black;
     color: red;
-    border-radius: 5px;
-}
-/* header prat start */
-header{
-    background-image:url(image-1/banner\ image.4.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 90vh;
-}
-.search-parent{
-    display: flex;
-    justify-content: center;
-    padding-top: 250px;
-}
-.search-parent input{
-    width: 500px;
-    height: 20px;
-    font-size: 15px;
-    padding: 15px 10px;
-    border-radius: 5px;
-    border: 1px solid rgb(83, 81,81);
-}
-.search-parent i{
-    background-color: #fff;
-    color: rgb(63, 61, 61);
-    padding: 5px;
-    margin: 0px -30px;
-    font-size: 20px;
-    border: 1px solid rgb(83, 81, 81);
     border-radius: 5px;
 }
 /* main part code start */
@@ -167,58 +138,4 @@ main{
     margin: auto 4px;
     color: #543ccc;
     font-size: 25px;
-}
- /* footer code start */
- footer{
-    background-color: #454d50;
-    color: #fff;
- }
- #footer-container{
-    width: 1100px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    justify-content: space-between;
-    grid-gap: 50px;
- }
-.footer-first-items h3{
-    padding: 30px 0;
-    margin-top: 20px;
-    font-size: 25px;
-}
- .footer-second-items h3{
-    padding: 30px 0;
-    margin-top: 20px;
-    font-size: 25px;
-}
-.footer-second-items a{
-    text-decoration: none;
-    color: #fff;
-}
-.footer-second-items p{
-    margin-bottom: 10px;
-}
-.footer-third-items{
-    padding: 30px 0;
-    margin-top: 20px;
-}
-.footer-third-items a{
-    text-decoration: none;
-    font-size: 25px;
-    margin-right: 10px;
-    color: #c0b9b9;
-    background-color: #1A1244;
-    padding: 4px;
-    border-radius: 5px;
-}
-.footer-third-items p{
-    margin: 8px 0;
-}
-.footer-third-items p:nth-child(3){
-    margin-bottom: 30px;
-}
-.copy{
-    background-color: black;
-    color: #fff;
-    text-align: center;
 }
